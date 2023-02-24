@@ -1,0 +1,29 @@
+.body{
+    padding-left:auto;
+}
+.heading{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user_info{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+
+    width: 31%;
+    margin:1% 1%;
+}
+.card-footer{
+    text-decoration:none;
+    color:blue !important;
+}
+.card-container{
+    display:flex;
+    flex-wrap:wrap;
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+
+<p>Name: <%=userDetails.fname userDetails.lname%> </p>
+        <p>Email: <%=userDetails.email%></p>
+        <p>Phone: <%=userDetails.phone%></p>
+        <%=for(var i=0;i<userDetails.snaps.length-1;i++)%>
+        <img src=<%=userDetails.snaps[i].img%> >
+
+       <% for(var j=0;j<usersDetails[i].snaps.length-1;j++){%>
+            <img src=<%=usersDetails[i].snaps[j].img%> >
+       <%}%>
+
+                  <div class="user_info">
+                <p>Name: <%=usersDetails[i].fname usersDetails[i].lname%> </p>
+                <p>Email: <%=usersDetails[i].email%></p>
+                <p>Phone: <%=usersDetails[i].phone%></p>
+        </div>

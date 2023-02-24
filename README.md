@@ -24,5 +24,4 @@ Note: Nodejs and npm should be already installed in your machine before going fu
 8) Now open the terminal in your vs code and write the command nodemon app.js
 9) If the server creation and connection is successfull then in console you will see "server is running successfully"
 10) Open http://localhost:8000/ in your chrome if 9th step is done successfully.
-11) We are done with setting up our server now if anyone is using the extension and giving there test we can see the details of the student in the homepage   
-    and if we click on the link in the card we can see the snapshots of the webcam in our browser.
+11) We are done with setting up our server now if anyone is using the extension and giving there test we can see the details of the student in the homepage and if we         click on the link in the card we can see the snapshots of the webcam in our browser.

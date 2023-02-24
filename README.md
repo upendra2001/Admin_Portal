@@ -15,12 +15,12 @@ Note: Nodejs and npm should be already installed in your machine before going fu
 2) Extract the zip file
 3) Open this folder with Vs code or any text editor
 4) Open the terminal in your Code editor
-5) Install all the dependencies by running the command npm i <dependency>
+5) Install all the dependencies by running the command npm i dependencyName
    Dependencies in this project are given in package.json file which are: babel-loader, cors, dotenv, ejs, express, mongodb, mongoose, nodemon
 6) Now create a mongodb atlas account and create a new project in it.
    Refer this link https://www.youtube.com/watch?v=scVi_6xqAEc&ab_channel=Headhonk  
 7) Now create a config.env file in your project and add the URL of your project in your config.env file as follows:
-   URL= <Link of mongodb atlas project url>
+   URL= Link of mongodb atlas project url
 8) Now open the terminal in your vs code and write the command nodemon app.js
 9) If the server creation and connection is successfull then in console you will see "server is running successfully"
 10) Open http://localhost:8000/ in your chrome if 9th step is done successfully.
